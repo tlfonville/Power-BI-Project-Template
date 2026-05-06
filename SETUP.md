@@ -107,43 +107,17 @@ Start with these files (click to open/edit):
 
 ## 🎯 Success Checklist
 
-**Week 1**
 - [ ] Folder structure created and populated  
 - [ ] `README.md` has owner, overview, and data/refresh notes  
 - [ ] `docs/metrics-dictionary.md` started with core KPIs  
 - [ ] `docs/dax-library.md` includes the first key measures  
 - [ ] `docs/development-log.md` has first entries
-
-**Week 2**
 - [ ] Stakeholders reviewed KPI definitions  
 - [ ] Data model and key visuals validated  
 - [ ] Routine for raw/clean/archive established
-
-**Month 1**
 - [ ] DAX library growing and referenced by team  
 - [ ] Docs consulted during changes/reviews  
 - [ ] Process improvements identified and captured in the dev log
-
----
-
-## 🔧 Troubleshooting 
-
-**Markdown not rendering as expected**
-- Ensure a blank line after headings; use fenced code blocks (```) for code.
-- Tables need pipes `|` and consistent column counts per row.
-
-**Dataset path issues**
-- Prefer relative paths; if moving machines, confirm the folder layout is identical.
-
-**PBIX too large**
-- Remove unused columns/steps in Power Query; disable “Enable load” for staging queries.
-
----
-
-## 🚀 Next Steps
-- **Share with the team:** Confirm everyone can access the shared folder and open the PBIX.  
-- **Lightweight reviews:** Use the dev log for mini “what changed / why” notes.  
-- **Automation later:** If you add scripts in `src/`, document parameters and outputs at the top of each script.
 
 ---
 
